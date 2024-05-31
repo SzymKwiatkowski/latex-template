@@ -1,0 +1,16 @@
+{
+    "name": "latex-env",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "james-yu.latex-workshop"
+            ]
+        }
+    },
+    "build": { 
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+    // "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/latex,type=bind",
+    // "workspaceFolder": "/workspaces/latex"
+} 
