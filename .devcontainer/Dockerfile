@@ -11,6 +11,7 @@ RUN apt-get update && \
     texlive-bibtex-extra biber latexmk make \
     texlive-science texlive-lang-european lmodern \
     texlive-lang-english texlive-lang-polish \
+    texlive-full \
     git procps locales curl && \
     rm -rf /var/lib/apt/lists/*
 
